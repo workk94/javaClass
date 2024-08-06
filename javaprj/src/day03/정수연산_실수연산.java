@@ -1,3 +1,4 @@
+//8
 package day03;
 
 public class 정수연산_실수연산 {

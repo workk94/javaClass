@@ -1,3 +1,4 @@
+// 4. 고객정보(아이디, 이름,  나이 ,키 )입력받아서 출력하기
 package day03.hw;
 
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+//3
 package day03;
 
 public class 변수 {

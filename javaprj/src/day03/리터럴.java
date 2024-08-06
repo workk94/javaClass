@@ -1,3 +1,4 @@
+//4
 package day03;
 
 public class 리터럴 {

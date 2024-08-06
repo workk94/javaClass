@@ -1,3 +1,4 @@
+//7
 package day03;
 
 public class 문자형변수 {

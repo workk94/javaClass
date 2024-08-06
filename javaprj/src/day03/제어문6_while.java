@@ -6,7 +6,7 @@ public class 제어문6_while {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		
+		// 레이블
 		loop:while(true) {	
 			int menu; 
 			menu = sc.nextInt();

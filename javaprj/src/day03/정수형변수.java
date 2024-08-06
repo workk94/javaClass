@@ -1,3 +1,4 @@
+//2
 package day03;
 
 public class 정수형변수 {

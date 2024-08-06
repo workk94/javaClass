@@ -1,3 +1,4 @@
+//6
 package day03;
 
 public class 형변환 {

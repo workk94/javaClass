@@ -1,3 +1,4 @@
+//5
 package day03;
 
 public class 실수형변수 {
