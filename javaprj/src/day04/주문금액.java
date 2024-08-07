@@ -44,7 +44,7 @@ public class 주문금액 {
 			  
 			 
 			 //주문금액 구하기
-			 iTotalPrice = iMenuCont * iPrice[0];
+			 iTotalPrice = iMenuCont * iPrice[ iMenuNum];
 			 
 			 //주문완료?  yes/no	
 			System.out.println("주문완료하셨나요? yes / no "); 
