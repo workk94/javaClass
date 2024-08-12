@@ -6,5 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/workk/Desktop/test/MyLib2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/workk/Desktop/test/Wjy.jar"/>
+	<classpathentry kind="lib" path="C:/Users/workk/Desktop/test/Untitled.jar"/>
+	<classpathentry kind="lib" path="C:/Users/workk/Desktop/test/Wjy3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/workk/Desktop/test/Jsk2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
