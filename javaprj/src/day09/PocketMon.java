@@ -29,7 +29,7 @@ public class PocketMon {
 	
 	
 	// 포켓몬 정보 출력
-	public void printInfo() {
+	public void printInfo(PocketMon this) {
 		System.out.println("포켓몬 이름 : "+ pokName);
 		System.out.println("도감번호 : " + pokId);
 		System.out.println("타입 : " + type);
