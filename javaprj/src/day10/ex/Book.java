@@ -10,7 +10,7 @@ public class Book {
 		
 	}
 	public Book(String title) {
-		this(title, null, 0);
+		this(title, null, 0 );
 	}
 	
 	public Book(String title, int price) {

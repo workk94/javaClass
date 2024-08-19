@@ -18,5 +18,4 @@ public class Test {
 		System.out.println(result2);
 		System.out.println(result3);
 	}
-
 }
