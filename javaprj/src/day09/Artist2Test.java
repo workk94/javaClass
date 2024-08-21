@@ -4,7 +4,7 @@ public class Artist2Test {
 
 	public static void main(String[] args) {
 		
-		// 변수	 ↓(참조형변수) -> 객체
+		// 변수	(참조형변수) -> 객체
 		Artist2 a2 = new Artist2();		// 변수
 		
 		
