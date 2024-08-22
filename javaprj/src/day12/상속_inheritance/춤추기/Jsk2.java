@@ -1,9 +1,4 @@
-//김정석
-
 package day12.상속_inheritance.춤추기;
-
-import java.util.Scanner;
-
 public class Jsk2 extends Student {
 	@Override
 	public void 춤추기() {
