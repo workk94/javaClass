@@ -1,7 +1,7 @@
 package com.mybank.exception;
 
-public class InvalidSSNFormatException extends RuntimeException{
+public final class InvalidSSNFormatException extends Exception{
 	public InvalidSSNFormatException () {
-		super("잘못된형식의 주민번호");
+		super("잘못된 형식의 주민번호 입니다");
 	}
 }

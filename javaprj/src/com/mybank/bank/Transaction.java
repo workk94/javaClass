@@ -10,5 +10,4 @@ public interface Transaction {
 	
 	//송금 
 	public boolean transfer(String fromAccount, String toAccount, long amount);
-	
 }

@@ -1,16 +1,16 @@
 package com.mybank.bank;
 
-import com.mybank.util.DataStorage;
-
 public class Ledger {
 	
-	private long totalBalance;
+	private long totalBalance = 0;
 	
-	public Ledger() {
-		
-	}
+	public Ledger() {}
 	
 	public long getTotalBalance() {
 		return totalBalance;
+	}
+
+	public void setTotalBalance(long totalBalance) {
+		this.totalBalance = totalBalance;
 	}	
 }

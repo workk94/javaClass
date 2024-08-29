@@ -1,7 +1,7 @@
 package day16.exception.ex;
 
 public class AgeValidator {
-	public boolean isAudult(int age) throws InvalidSSNFormatException {
+	public boolean isAudult(int age) throws AgeOutOfRangeException {
 		
 		if(age < 0 || age > 150) {
 			throw new AgeOutOfRangeException();

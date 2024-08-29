@@ -8,15 +8,16 @@ import com.mybank.bank.Account;
 public class User implements Serializable{
 	
 	//field
-	private String userName; // 이름 
-	private String ssn; // 주민번호
+
+	private String userName; 
+	private String ssn;
 	private int cnt = 0;
-	private Account[] myAccount = new Account[3]; 
+	private Account[] myAccount; 
 	
-	public User(String userName, String ssn, Account[] myAccount) {
+	public User(String userName, String ssn) {
 		this.userName = userName;
 		this.ssn = ssn;
-		this.myAccount = myAccount;
+		this.myAccount = new Account[3];
 	}
 	
 	public String getUserName() {
@@ -32,6 +33,22 @@ public class User implements Serializable{
 		this.ssn = ssn;
 	}
 	
+	public int getCnt() {
+		return cnt;
+	}
+
+	public void setCnt(int cnt) {
+		this.cnt = cnt;
+	}
+
+	public Account[] getMyAccount() {
+		return myAccount;
+	}
+
+	public void setMyAccount(Account[] myAccount) {
+		this.myAccount = myAccount;
+	}
+
 	@Override
 	public String toString() {
 		return "User [userName=" + userName + ", ssn=" + ssn + ", cnt=" + cnt + ", myAccount="

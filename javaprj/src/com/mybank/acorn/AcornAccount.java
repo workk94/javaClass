@@ -1,10 +1,14 @@
 package com.mybank.acorn;
 
-import java.util.ArrayList;
-
 import com.mybank.bank.Account;
 
 public class AcornAccount extends Account {
+	
+
+	public AcornAccount() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	public static String accountNumberGenerator() {
 		StringBuffer sb = new StringBuffer();
@@ -14,5 +18,5 @@ public class AcornAccount extends Account {
 		}
 		return sb.toString();
 	}
-
+	
 }
