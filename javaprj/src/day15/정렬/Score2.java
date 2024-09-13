@@ -31,4 +31,5 @@ public class Score2 implements Comparable{
 	}
 	
 
+
 }
