@@ -1,0 +1,1 @@
+Battery=day5.di_injection실습.SMBattery
